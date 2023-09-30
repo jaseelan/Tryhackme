@@ -1,1 +1,13 @@
+nmap -pn -A ip address
+nmap -sS -A -Ts ip
+
+gobuster dir -u 10.10.144.84 -w /usr/share/dirb/wordlists/big.txt 
+
+locate reverse-shell
+nano /usr/share/webshell ....
+nc -nlvp 9999 #net cat and port number
+find / -type -f -name user.txt 2>/dev/null
+cat /var/www/user.txt
+
+find / -type  f -perm /4000 2>/dev/null
 
