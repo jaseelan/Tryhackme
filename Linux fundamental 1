@@ -3,3 +3,7 @@ find -name *.txt
 The grep command allows us to search the contents of files for specific values that we are 
 looking for.
 grep "192.168.1.1" access.log 
+
+
+#Linux fundamental 2
+
