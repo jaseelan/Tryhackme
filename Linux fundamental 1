@@ -1,1 +1,2 @@
-
+find -name passwords.txt 
+find -name *.txt
