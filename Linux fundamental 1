@@ -9,4 +9,14 @@ grep "192.168.1.1" access.log
 file name_of_thefile
 ssh tryhackme@MACHINE_IP
 man ls
+ls -lh
+su user2
+rm note
+rm -R mydirectory
+cp note note2
+mv note2 note3
+su -l user2
+
+
+
 
