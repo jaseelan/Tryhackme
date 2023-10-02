@@ -16,6 +16,7 @@ rm -R mydirectory
 cp note note2
 mv note2 note3
 su -l user2
+https://devhints.io/bash 
 
 
 
