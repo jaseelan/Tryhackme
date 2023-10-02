@@ -52,6 +52,6 @@ SIGKILL - Kill the process - doesn't do any cleanup after the fact
 SIGSTOP - Stop/suspend a process
 sudo systemctl enable application .service.  boot-up // starting time
 
-
+https://docs.python.org/3/library/http.server.html
 
 
