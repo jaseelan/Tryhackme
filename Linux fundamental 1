@@ -34,6 +34,24 @@ scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt
 
 python3 -m  http.server  //
 
+ps aux
+
+SIGTERM - Kill the process, but allow it to do some cleanup tasks beforehand
+SIGKILL - Kill the process - doesn't do any cleanup after the fact
+SIGSTOP - Stop/suspend a process
+
+systemctl start apache2
+
+echo "Hi THM" &
+fg to bring this back to focus like below, where we can see the fg command 
+is being used to bring the background process back into use on the terminal, where the output
+of the script is now returned to us.
+
+SIGTERM - Kill the process, but allow it to do some cleanup tasks beforehand
+SIGKILL - Kill the process - doesn't do any cleanup after the fact
+SIGSTOP - Stop/suspend a process
+sudo systemctl enable application .service.  boot-up // starting time
+
 
 
 
