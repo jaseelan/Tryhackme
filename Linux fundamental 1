@@ -30,6 +30,10 @@ Working on a model of SOURCE and DESTINATION, SCP allows you to:
 Copy files & directories from your current system to a remote system
 Copy files & directories from a remote system to your current system
 
+scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt 
+
+python3 -m  http.server  //
+
 
 
 
