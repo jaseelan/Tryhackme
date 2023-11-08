@@ -3,3 +3,13 @@ https://devhints.io/bash
 https://www.codewars.com/
 https://www.hackerrank.com/
 And of course google!
+
+gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://10.10.49.87/
+ enum4linux -a 10.10.49.87 | tee enum4linux.log
+ enum4linux -a 10.10.49.87 -v | tee enum4linux.log
+ hydra -l jan -P /usr/share/wordlists/rockyou.txt ssh://10.10.117.190:22
+https://www.whois.com/whois/ 
+ find / -name "*wordlist" 
+scp /usr/share/wordlists/rockyou.txt myna@10.8.203.198:/home/myna/Desktop/openvpn
+
+
